@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(170, 232, 211);
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+#contactform {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(63, 63, 163);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 49%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: larger;
+    color: black;
+    font-family: sans-serif;
+}
+
+input[type="address"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: lightskyblue;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: rgb(81, 143, 167);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(0, 35, 100);
+}
+
+.success-message {
+    color: #4CAF50;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#message {
+    background-color: rgb(79, 124, 152);
+}
+
+textarea::placeholder {
+    color: blue;
+}
+
+#specifyColor {
+    accent-color: rgb(4, 220, 231);
+}
